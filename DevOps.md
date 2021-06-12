@@ -1,12 +1,12 @@
-
-Q1) what is DevOps?
+## Q1) what is DevOps?
 
 By the name DevOps, it’s very clear that it’s a collaboration of Development as well as Operations. But one should know that DevOps is not a tool, or software or framework, DevOps is a Combination of Tools which helps for the automation of the whole infrastructure.
 DevOps is basically an implementation of Agile methodology on the Development side as well as Operations side.
-Q2) why do we need DevOps?
+
+## Q2) why do we need DevOps?
 
 To fulfil the need of delivering more and faster and better application to meet more and more demands of users, we need DevOps. DevOps helps deployment to happen really fast compared to any other traditional tools.
-Q3) Mention the key aspects or principle behind DevOps?
+## Q3) Mention the key aspects or principle behind DevOps?
 
 The key aspects or principle behind DevOps is:
 •	Infrastructure as a Code
@@ -15,7 +15,7 @@ The key aspects or principle behind DevOps is:
 •	Automation
 •	Continuous Monitoring
 •	Security
-Q4) List out some of the popular tools for DevOps?
+## Q4) List out some of the popular tools for DevOps?
 
 •	Git
 •	Jenkins
@@ -26,7 +26,7 @@ Q4) List out some of the popular tools for DevOps?
 •	Nagios
 •	Docker
 •	ELK (Elasticsearch, Logstash, Kibana)
-Q5) what is a version control system?
+## Q5) what is a version control system?
 
 Version Control System (VCS) is a software that helps software developers to work together and maintain a complete history of their work.
 Some of the feature of VCS as follows:
@@ -37,7 +37,7 @@ Some of the feature of VCS as follows:
 There are two types of Version Control Systems:
 1.	Central Version Control System, Ex: Git, Bitbucket
 2.	Distributed/Decentralized Version Control System, Ex: SVN
-Q6) What is Git and explain the difference between Git and SVN?
+## Q6) What is Git and explain the difference between Git and SVN?
 
 Git is a source code management (SCM) tool which handles small as well as large projects with efficiency. It is basically used to store our repositories in remote server such as GitHub.
 
@@ -72,19 +72,19 @@ Commits can be done only online
 
 Work are shared automatically by commit	
 Nothing is shared automatically
-Q7) what language is used in Git?
+## Q7) what language is used in Git?
 
 Git is written in C language, and since its written in C language its very fast and reduces the overhead of runtimes.
  
 
-Q8) what is SubGit?
+## Q8) what is SubGit?
 
 SubGit is a tool for migrating SVN to Git. It creates a writable Git mirror of a local or remote Subversion repository and uses both Subversion and Git if you like.
-Q9) how can you clone a Git repository via Jenkins?
+## Q9) how can you clone a Git repository via Jenkins?
 
 First, we must enter the e-mail and user name for your Jenkins system, then switch into your job directory
 and execute the “git config” command.
-Q10)What are the Advantages of Ansible?
+## Q10)What are the Advantages of Ansible?
 
 •	Agentless, it doesn’t require any extra package/daemons to be installed
 •	Very low overhead
@@ -92,10 +92,10 @@ Q10)What are the Advantages of Ansible?
 •	Idempotent
 •	Very Easy to learn
 •	Declarative not procedural
-Q11) what’s the use of Ansible?
+## Q11) what’s the use of Ansible?
 
 Ansible is mainly used in IT infrastructure to manage or deploy applications to remote nodes. Let’s say we want to deploy one application in 100’s of nodes by just executing one command, then Ansible is the one actually coming into the picture but should have some knowledge on Ansible script to understand or execute the same.
-Q12) what’s the difference between Ansible Playbook and Roles?
+## Q12) what’s the difference between Ansible Playbook and Roles?
 
 
 
@@ -114,24 +114,24 @@ Mapps among hosts and roles.
 
 Example: common, webservers.	
 Example: site.yml, fooservers.yml, webservers.yml.
-Q13) How do I see a list of all the ansible_ variables?
+## Q13) How do I see a list of all the ansible_ variables?
 
 Ansible by default gathers “facts” about the machines, and these facts can be accessed in Playbooks and in templates. To see a list of all the facts that are available about a machine, you can run the “setup” module as an ad-hoc action:
 Ansible -m setup hostname
 This will print out a dictionary of all the facts that are available for that particular host.
-Q14) what is Docker?
+## Q14) what is Docker?
 
 Docker is a containerization technology that packages your application and all its dependencies together in the form of Containers to ensure that your application works seamlessly in any environment.
-Q15) what is Docker image?
+## Q15) what is Docker image?
 
 Docker image is the source of Docker container. Or in other words, Docker images are used to create containers.
-Q16) what is Docker Container?
+## Q16) what is Docker Container?
 
 Docker Container is the running instance of Docker Image.
-Q17) Can we consider DevOps as Agile methodology?
+## Q17) Can we consider DevOps as Agile methodology?
 
 Of Course, we can!! The only difference between agile methodology and DevOps is that, agile methodology is implemented only for development section and DevOps implements agility on both development as well as operations section.
-Q18) what are the advantages of using Git?
+## Q18) what are the advantages of using Git?
 
 1.	Data redundancy and replication
 2.	High availability
@@ -141,10 +141,10 @@ Q18) what are the advantages of using Git?
  
 
 6.	Git can use any sort of projects.
-Q19) what is kernel?
+## Q19) what is kernel?
 
 A kernel is the lowest level of easily replaceable software that interfaces with the hardware in your computer.
-Q20) what is difference between grep -i and grep -v?
+## Q20) what is difference between grep -i and grep -v?
 
 I ignore alphabet difference V accept this value ex) ls | grep -i docker
 Dockerfile docker.tar.gz
