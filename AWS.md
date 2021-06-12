@@ -29,11 +29,8 @@
   but you can associate multiple subnets with the same route table.
   
 #### VPC Network peering?
-- A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate 
-  with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions 
-  (also known as an inter-region VPC peering connection).
+- A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances     in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another     AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
   ![image](https://user-images.githubusercontent.com/82079865/121771596-ebb0ec80-cb8d-11eb-8899-2cd1ec86c299.png)
-
 
 #### Which AWS service is specifically designed for developers to upload their code to and then it will automatically handle the provisitions of those resources that are required to host that code?
 - Elastic Beanstalk
